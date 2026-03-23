@@ -82,7 +82,7 @@ def leet(ctx: click.Context) -> None:
 def run(path: str | None = None, pprof: str = "") -> None:
     """Launch the LEET TUI.
 
-    `PATH` can be a `.wandb` file, a run directory, or a wandb directory.
+    PATH can be a `.wandb` file, a run directory, or a wandb directory.
     If omitted, searches for the latest run.
     """
     from . import beta_leet
